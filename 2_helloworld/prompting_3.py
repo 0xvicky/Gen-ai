@@ -13,10 +13,13 @@ client = OpenAI(
 response = client.chat.completions.create(
     model="gemini-3-flash-preview",
     messages=[
-        
+        {
+            "role":"system",
+            "content":"You are an expert of physics. From now on answer the physics related questions only.If query still otherwise just respond => 'Sorry, I can't assist with that!'"
+        },
         {
             "role": "user",
-            "content": "What's the day today?"
+            "content": "Can you give me an architecture of an hypothetical blockchain that uses the power of physics to operate??"
         }
     ]
 )
