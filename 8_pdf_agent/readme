@@ -1,0 +1,7 @@
+print("RAG AND LANGCHAIN")
+# Definition of RAG : RAG IS RETRIEVE AUGMENTED GENERATION is a method that combines retrieval-based and generation-based approaches to create more accurate and informative responses in natural language processing tasks. It retrieves relevant information from a knowledge base or external sources and then uses that information to generate a response, enhancing the quality and relevance of the output.
+
+# Naive approach solving this problem :
+# 1. Cost
+# 2. Limited Context Window of LLMS , not efficient for large set of files
+# ##
