@@ -1,0 +1,3 @@
+Langraph is nothing but a library for building stateful, multi-actor applications with LLMs, used to create agent and multi-agent workflows. It extends LangChain by allowing for the creation of cyclic graphs, which are essential for complex iterative processes that standard chains cannot handle.
+
+Can we call it langchain in multiple iterations =>  No. Langraph can be used to create workflows that involve multiple iterations, but it is not simply a wrapper around LangChain. It provides additional functionality and flexibility for building complex applications that require state management and multi-actor interactions.

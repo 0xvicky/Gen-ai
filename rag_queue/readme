@@ -1,0 +1,2 @@
+Instead of server processing request of each user, it passes the data to queue from where consumers are going to pick up the data and process it. This way we can scale the number of consumers based on the load.
+The whole process would then be async and we can have multiple consumers processing the data in parallel. This approach is particularly useful when we have a high volume of requests and we want to ensure that our system can handle the load without crashing or slowing down.
